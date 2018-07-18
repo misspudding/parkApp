@@ -27,15 +27,21 @@
     <text class="item-l">续期</text>
   </view>
   <view class="line">
-    <text class="item-l">个月</text>
-    <text class="item-r">有效期至<text>2018.09.30</text></text>
+    <view class="item-l">
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="weui-input">{{array[index]}}</view>
+      </picker>
+      <image src='../../resource/images/san.png'></image>
+      <text>个月</text>
+    </view>
+    <text class="item-r">有效期至<text>{{date}}</text></text>
   </view>
   <view class="line">
     <text class="item-l">费用</text>
-    <text class="item-r money">300元</text>
+    <text class="item-r money">{{(array[index])*money}}元</text>
   </view>
 
-  
+
 </view>
 <view class='btn-carrenewal'>立即支付</view>
 <view class="bg"></view>

@@ -140,6 +140,21 @@
   float:left;
   color:#666;
 }
+.car-renewal-item .line .item-l picker{
+  float:left;
+  width:50rpx;
+  text-align:center;
+  color:#000;
+}
+.car-renewal-item .line .item-l image{
+  float:left;
+  width:16rpx;
+  height:13rpx;
+  margin:44rpx 10rpx 0 0;
+}
+.car-renewal-item .line .item-l text{
+  float:left;
+}
 .car-renewal-item .line .item-r{
   float:right;
   color:#333;

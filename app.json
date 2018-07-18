@@ -1,9 +1,11 @@
 {
   "pages": [
+    "pages/carRenewal/carRenewal",
+    "pages/parkRecord/parkRecord",
     "pages/index/index",
     "pages/userInfo/userInfo",
-    "pages/carManage/carManage",
     "pages/bindPhoneNumber/bindPhoneNumber",
+    "pages/carManage/carManage",
     "pages/addMonthCar/addMonthCar",
     "pages/myWallet/myWallet",
     "pages/parkDetail/parkDetail",
@@ -14,8 +16,6 @@
     "pages/pay/pay",
     "pages/callAdmin/callAdmin",
     "pages/carAuthentication/carAuthentication",
-    "pages/carRenewal/carRenewal",
-    "pages/parkRecord/parkRecord",
     "pages/paySuccess/paySuccess",
     "pages/recharge/recharge",
     "pages/invoice/invoice",
