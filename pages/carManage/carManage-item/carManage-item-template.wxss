@@ -1,0 +1,80 @@
+.item {
+  margin-top: 15px;
+}
+
+.manage-t {
+  overflow: hidden;
+  padding: 20rpx 20rpx;
+  background: #fff;
+  box-sizing: border-box;
+  border-top:1rpx solid #eaeaea;
+}
+
+.manage-t .info {
+  float: left;
+}
+
+.manage-t .info image {
+  width: 66rpx;
+  height: 65rpx;
+  float: left;
+  margin-top: 30rpx;
+}
+
+.manage-t .info .num {
+  float: left;
+  font-size: 44rpx;
+  font-family: "黑体";
+  height: 125rpx;
+  line-height: 125rpx;
+  margin-left: 5px;
+}
+.manage-t .info text.num {
+  float:left;
+  display:block;
+}
+
+.manage-t .label {
+  display: block;
+  float: left;
+  font-size: 28rpx;
+  width: 130rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin: 38rpx 0 0 10rpx;
+  border: 1rpx solid #04be33;
+  color: #04be33;
+  text-align: center;
+  border-radius: 30rpx;
+  margin-right: 10px;
+}
+.manage-t .trash{
+  width:34rpx;
+  height:35rpx;
+  float:right;
+  margin-top:45rpx;
+}
+
+.weui-cell__bd {
+  float: left;
+  font-size: 32rpx;
+  color:#666;
+}
+
+.weui-cell__ft {
+  float: right;
+}
+
+.weui-cell_switch {
+  overflow: hidden;
+  border-bottom: 1rpx solid #eaeaea;
+  padding: 0 20rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.page-section {
+  border-top: 1rpx solid #eaeaea;
+  background: #fff;
+  margin-top:1rpx;
+}

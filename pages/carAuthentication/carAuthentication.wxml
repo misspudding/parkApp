@@ -1,0 +1,30 @@
+<!--pages/carAuthentication/carAuthentication.wxml-->
+<view class="carauthentication-t">
+  <text class="font">请拍摄</text>
+  <view>
+    <text>粤G</text>  
+    <text class="point"></text>
+    <text>12345</text>
+  </view>
+  <text class="font">的行驶证，并录入信息</text>
+</view>
+<view class="carauthentication-c">
+  <view class="part">
+    <view>
+      <image src='../../resource/images/carAuthentication-f2.png'></image>
+    </view>
+    <text>上传行驶证主页</text>
+  </view>
+  <view class="part">
+    <view>
+      <image src='../../resource/images/carAuthentication.png'></image>
+    </view>
+    <text>上传行驶证副页</text>
+  </view>
+  <view class="tips">
+    <view class="tips-con"><image src='../../resource/images/tips.png'></image>
+    <text>信息安全保护中，未经您授权绝不对外提供</text></view>
+    
+  </view>
+  <view class='btn-next'>下一步</view>
+</view>

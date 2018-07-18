@@ -1,0 +1,164 @@
+/* pages/myWallet/myWallet.wxss */
+.my-wallet-top{
+  padding:30rpx;
+  background:#2084fe;
+  color:#fff;
+  display: flex;
+  flex-flow:column;
+}
+.my-wallet-top .my-wallet-l{
+  width:50%;
+  box-sizing: border-box;
+  border-right:1rpx solid rgba(255,255,255,0.2);
+  float:left;
+}
+.my-wallet-l text{
+  display:block;
+}
+.my-wallet-l text.wallet-tit{
+  color:rgba(255,255,255,0.6);
+  font-size: 26rpx;
+  text-align:center;
+  height:70rpx;
+  line-height:70rpx;
+}
+.my-wallet-l text.balance{
+  color:#fff;
+  font-size: 84rpx;
+  text-align:center;
+  height:90rpx;
+  line-height:90rpx;
+  font-weight: bold;
+
+}
+.btn-my-wallet{
+  margin-top:50rpx;
+}
+.btn-my-wallet view.btn-wallet-con{
+  float:left;
+  height:28rpx;
+  line-height: 28rpx;
+  width:50%;
+  box-sizing:border-box;
+  position:relative;
+}
+.btn-my-wallet view.btn-wallet-con view{
+  display:block;
+  text-align:center;
+  position:absolute;
+  margin-left:20%;
+}
+.btn-my-wallet view image{
+  width:28rpx;
+  height:28rpx;
+  float:left;
+  padding-right:10rpx;
+}
+.btn-my-wallet view text{
+  font-size: 26rpx;
+  float:left;
+  height:28rpx;
+  line-height: 28rpx;
+}
+.my-wallet-top .my-wallet-r{
+  float:left;
+  width:50px;
+  box-sizing:border-box;
+}
+
+/*tab选项卡*/
+
+.swiper-tab {
+  width: 100%;
+  border-bottom: 2rpx solid #eaeaea;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 33.3%;
+  color: #777;
+}
+
+.on {
+  color: #1f84fe;
+  border-bottom: 5rpx solid #1f84fe;
+}
+
+.swiper-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+}
+
+.item-con .item-tit{
+ padding:0 35rpx;
+  height:117rpx;
+  line-height: 117rpx;
+  background:#f8f8f8;
+  font-size: 32rpx;
+  color:#333;
+  overflow:hidden;
+}
+.item-con .item-tit .money{
+  float:right;
+}
+.item-con .item-box{
+  border-top:1rpx solid #eaeaea;
+  border-bottom:1rpx solid #eaeaea;
+  overflow:hidden;
+  box-sizing:border-box;
+}
+.item-box .space{
+  width:100%;
+  height:1rpx;
+}
+.item-con .item-box .line{
+  margin:0 0 0 35rpx;
+  padding:30rpx 35rpx 30rpx 0;
+  height:80rpx;
+  overflow:hidden;
+  border-bottom:1rpx solid #eaeaea;
+}
+.item-con .item-box .line:last-child{
+  border-bottom:none;
+}
+.item-con .item-box .line image{
+  width:63rpx;
+  height:63rpx;
+  float:left;
+  margin-top:3rpx;
+}
+.item-con .item-box .line view{
+  float:left;
+  margin-left:10rpx;
+}
+.item-con .item-box .line view text.tit{
+  display:block;
+  font-size: 28rpx;
+  color:#333;
+  height:35rpx;
+  line-height: 35rpx;
+}
+.item-con .item-box .line view text.date{
+  display:block;
+  font-size: 26rpx;
+  height:43rpx;
+  line-height:43rpx;
+  color:#666;
+}
+.item-con .item-box .line view text.date text{
+  padding-left:30rpx;
+}
+.item-con .item-box .line .recharge{
+  float:right;
+  color:#fe6133;
+  font-size: 36rpx;
+  text-align:right;
+  height:80rpx;
+  line-height:80rpx;
+}

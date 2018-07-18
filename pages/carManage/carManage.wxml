@@ -1,0 +1,5 @@
+<import src="carManage-item/carManage-item-template" />
+<block wx:for="{{5}}" wx:key="{{}}">
+  <template is="carManage-item"></template>
+</block>
+<view class="bg"></view>

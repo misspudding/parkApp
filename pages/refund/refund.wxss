@@ -1,0 +1,219 @@
+/* pages/refund/refund.wxss */
+.top-bg{
+  background:#fff;
+  padding:30rpx 0;
+}
+.refund-con{
+  width:650rpx;
+  height:355rpx;
+  padding:25rpx 53rpx;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px 2px rgba(102, 102, 102, 0.5);
+  border-radius:20rpx;
+  margin:0 auto;
+  background:#fff;
+}
+.refund-con .refund-t{
+  overflow:hidden;
+  height:60rpx;
+  line-height: 60rpx;
+  margin-bottom:30rpx;
+}
+.refund-con .num{
+  font-family: "黑体";
+  font-size: 36rpx;
+  float:left;
+  color:#333;
+}
+.refund-con .time{
+  font-size: 26rpx;
+  color:#666;
+  float:right;
+}
+.refund-c{
+  overflow:hidden;
+  margin-bottom:30rpx;
+}
+.refund-c .address{
+    float:left;
+}
+.refund-c .address .address-t{
+  font-size: 28rpx;
+  height:55rpx;
+  line-height: 55rpx;
+  color:#333;
+  display:block;
+
+}
+.refund-c .address .address-dw{
+  overflow:hidden;
+  height:40rpx;
+  line-height:40rpx;
+  display:block;
+}
+.refund-c .address .address-dw image{
+  width:16rpx;
+  height:21rpx;
+  float:left;
+  padding:10rpx 10rpx 0 0;
+}
+.refund-c .address .address-dw text{
+  font-size: 22rpx;
+  color:#666;
+  float:left;
+  display:block;
+  height:40rpx;
+  line-height:40rpx;
+}
+.refund-c .money{
+  float:right;
+  color:#fe6133;
+  height:95rpx;
+}
+.refund-c .money .icon{
+float:right;
+padding-top:20rpx;
+
+}
+.refund-c .money .much{
+  font-size: 84rpx;
+  float:right;
+}
+.progress{
+  overflow:hidden;
+  height:19rpx;
+  margin-left:40rpx;
+  margin-bottom:10rpx;
+}
+.progress image{
+  width:19rpx;
+  height:19rpx;
+  float:left;
+}
+.progress text{
+  width:205rpx;
+  height:2rpx;
+  float:left;
+  background:#e5e5e5;
+  display:block;
+  margin-top:8rpx;
+}
+.time-title{
+  overflow:hidden;
+  height:30rpx;
+  line-height:30rpx;
+}
+.time-title text{
+  float:left;
+  font-size: 22rpx;
+  color:#666;
+  margin-right:129rpx;
+  display:block;
+  width:96rpx;
+  text-align:center;
+
+}
+.time-title text:last-child{
+  margin-right:0;
+}
+.time-info{
+  overflow:hidden;
+  height:48rpx;
+  line-height:48rpx;
+}
+.time-info text{
+  float:left;
+  font-size: 28rpx;
+  color:#333;
+  margin-right:129rpx;
+  display:block;
+  width:96rpx;
+  text-align:center;
+}
+.time-info text:last-child{
+  margin-right:0;
+}
+.bg{
+  background:#f3f4f5;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:-9999;
+}
+.list{
+  background:#fff;
+  border-top:1rpx solid #eaeaea;
+}
+.list .list-item{
+  overflow:hidden;
+  height:100rpx;
+  line-height:100rpx;
+  font-size: 32rpx;
+  color:#333;
+  border-bottom:1rpx solid #eaeaea;
+  padding:0 35rpx;
+}
+.list .list-item .item-l{
+  float:left;
+}
+.list .list-item .item-l text{
+  display:block;
+  float:left;
+}
+.list .list-item .item-l image{
+  width:42rpx;
+  height:34rpx;
+  margin-top:33rpx;
+  padding-right:10rpx;
+  float:left;
+
+}
+.list .list-item .item-r{
+  float:right;
+  color:#666;
+}
+.list .list-item .item-r text{
+  padding-left:10rpx;
+}
+.list .list-item .item-r.red{
+  color:#fe6133;
+
+}
+.btn-submit {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: linear-gradient(to right, #6fbeff, #1f84fe);
+  border-radius: 0;
+  color: #fff;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  border:none;
+  text-align:center;
+}
+.refund-btom{
+  margin-top:30rpx;
+}
+.radio{
+  height:90rpx;
+  line-height:90rpx;
+}
+.weui-cell__bd image{
+  width:52rpx;
+  height:52rpx;
+  float:left;
+  margin:19rpx 10rpx 0 35rpx;
+}
+.pay-radio{
+  float:right;
+  margin-right:35rpx;
+}
+.weui-cell__bd{
+  border-bottom:1rpx solid #eaeaea;
+  margin-top:1rpx;
+  font-size: 32rpx;
+  background:#fff;
+}

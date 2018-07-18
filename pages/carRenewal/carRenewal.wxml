@@ -1,0 +1,41 @@
+<!--pages/carRenewal/carRenewal.wxml-->
+<view class="car-renewal-con">
+  <view class="car-renewal-tit">
+    本月停车
+    <text>22</text>次 月停车总时长
+    <text>386</text>小时
+  </view>
+  <view class='card'>
+    <view class="part">
+      <view class="card-info">
+        <view class="card-pic">
+          <image src='../../resource/images/card.png'></image>
+        </view>
+        <text class="num"><text>粤G</text>
+        <text class="pointer"></text>
+        <text>DY910</text></text>
+        <text class="month">停车月卡</text>
+      </view>
+      <text class="adress">湛江市保利原点外围停车场</text>
+      <text class="time">有效期至<text>2018.8.30</text></text>
+    </view>
+  </view>
+</view>
+<view class="car-renewal-item">
+  <text class="tit">月卡续费</text>
+  <view class="line">
+    <text class="item-l">续期</text>
+  </view>
+  <view class="line">
+    <text class="item-l">个月</text>
+    <text class="item-r">有效期至<text>2018.09.30</text></text>
+  </view>
+  <view class="line">
+    <text class="item-l">费用</text>
+    <text class="item-r money">300元</text>
+  </view>
+
+  
+</view>
+<view class='btn-carrenewal'>立即支付</view>
+<view class="bg"></view>

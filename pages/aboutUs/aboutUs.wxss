@@ -1,0 +1,31 @@
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us {
+  border-bottom: 1rpx solid #eaeaea;
+  height: 100rpx;
+}
+
+text {
+  font-size: 32rpx;
+  font-family: Microsoft YaHei;
+  line-height: 100rpx;
+  margin-left: 35rpx;
+}
+
+.user-agreement {
+  border-bottom: 1rpx solid #eaeaea;
+  height: 100rpx;
+}
+
+.recharge-agreement {
+  border-bottom: 1rpx solid #eaeaea;
+  height: 100rpx;
+}
+
+.feedback {
+  border-bottom: 1rpx solid #eaeaea;
+  height: 100rpx;
+}

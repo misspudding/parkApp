@@ -1,0 +1,34 @@
+/* pages/invoice/invoice.wxss */
+.invoice-tips{
+  overflow:hidden;
+  padding-top:66rpx;
+  width:570rpx;
+  margin:0 auto;
+}
+.invoice-tips image{
+  width:28rpx;
+  height:28rpx;
+  float:left;
+  margin:5rpx 10rpx 0 0;
+}
+.invoice-tips text{
+  font-size: 22rpx;
+  color:#666;
+  display:block;
+  width:532rpx;
+  float:left;
+}
+.invoice-list{
+  margin:70rpx 0 0 35rpx;
+}
+.invoice-list text{
+  display:block;
+  border-bottom:1px solid #eaeaea;
+  height:70rpx;
+  line-height:70rpx;
+  font-size: 32rpx;
+  color:#666;
+}
+.invoice-list text:last-child{
+  border-bottom:none;
+}

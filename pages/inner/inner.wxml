@@ -1,0 +1,2 @@
+<!--pages/inner/inner.wxml-->
+<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">进入使用</button>

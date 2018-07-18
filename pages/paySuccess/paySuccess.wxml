@@ -1,0 +1,8 @@
+<!--pages/paySuccess/paySuccess.wxml-->
+<view class="pay-success-con">
+  <image src='../../resource/images/success.png'></image>
+  <text class="success">支付成功</text>
+  <text class="tit">请在离场时扫描出口二维码</text>
+  <text class="tips">请在<text>15分钟</text>内离场，逾期将重新开始计时计费</text>
+  <view class="btn-sure">确定</view>
+</view>

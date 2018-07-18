@@ -1,0 +1,32 @@
+<!--pages/moreParking/moreParking.wxml-->
+<view class="title">
+  <view class="con">
+    <text>已有</text>
+    <text class="num">{{countPark}}</text>
+    <text>家停车场</text>
+  </view>
+</view>
+<!--选择停车场开始-->
+<block wx:for="{{parkList}}" wx:key="{{}}">
+  <view class="part" data-postid="{{item.postId}}" catchtap='openParkDetail'>
+    <view class="part-l">
+      <view class="tit">
+        <text>{{item.name}}</text>
+        <view class="start">
+          <image src='/resource/images/start-f2.png'></image>
+          <image src='/resource/images/start-f2.png'></image>
+          <image src='/resource/images/start-f2.png'></image>
+          <image src='/resource/images/start-f2.png'></image>
+          <image src='/resource/images/start-f2.png'></image>
+        </view>
+      </view>
+      <text class="font">{{item.address}}</text>
+      <text class="font">剩余车位：<text>{{item.remainPark}}</text></text>
+      <text class="tips">{{item.parkRule}}</text>
+    </view>
+    <view class="part-r" data-postid="{{item.postId}}" catchtap='goToNavigation'>
+      <image src='/resource/images/dh.png'></image>
+      <text class="font">{{item.howFar}}公里</text>
+    </view>
+  </view>
+</block>

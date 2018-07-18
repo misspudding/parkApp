@@ -1,0 +1,20 @@
+<view class='bind-phone-number-container'>
+  <view class='phone-number-input-view'>
+    <label class='number'>+86</label>
+    <input class='input-phoneNumber' placeholder='请输入手机号' type='number' maxlength='11'></input>
+  </view>
+  <view class='verification'>
+    <view class='verification-code-input-view'>
+      <input class='input-phoneNumber' placeholder='请输入验证码' type='number' maxlength='6'></input>
+    </view>
+    <button class='verification-btn' disabled='{{disabled}}' data-id="2" bindtap="getVerificationCode" style='color:#2084fe; background:#fff;'>{{time}}</button>
+  </view>
+  <view class='accredit-view'>
+    <image class='wechat-img' src='../../resource/images/wechat.png'></image>
+    <text class='accredit-text'>微信一键授权</text>
+  </view>
+  <view class='submit-view'>提交</view>
+  <checkbox class='affirm-checkbox' checked="true">
+    <text class='explain'>确认使用即表示您已阅读并统一<text>《用户协议》</text></text>
+  </checkbox>
+</view>

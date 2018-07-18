@@ -1,0 +1,98 @@
+/* pages/pay/pay.wxss */
+
+.container-pay {
+  background: #2084fe;
+  text-align: center;
+  height: 272rpx;
+  position: relative;
+}
+
+.container-pay view.pay-tit {
+  opacity: 0.6;
+}
+
+.container-pay view {
+  font-size: 26rpx;
+  color: #fff;
+  padding-top: 46rpx;
+  line-height: 62rpx;
+}
+
+.container-pay view.pay-con {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.container-pay .icon {
+  font-size: 28rpx;
+  color: #fff;
+  float: left;
+  line-height: 14px;
+}
+
+.container-pay .money {
+  font-size: 84rpx;
+  color: #fff;
+  float: left;
+}
+
+.pay-now {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: linear-gradient(to right, #6fbeff, #1f84fe);
+  border-radius: 0;
+  color: #fff;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  border:none;
+  text-align:center;
+}
+
+.pay-style {
+  background: #f8f8f8;
+}
+
+.pay-choose {
+  padding: 0 35rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  padding-top: 10rpx;
+  color: #666;
+}
+
+.list {
+  border-top: 1rpx solid #eaeaea;
+}
+
+.weui-cell__bd {
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #eaeaea;
+  padding: 0 35rpx;
+  background: #fff;
+  font-size:32rpx;
+}
+
+.weui-cell__bd image {
+  float: left;
+}
+
+.weui-cell__bd text {
+  float: left;
+  font-size:16px;
+}
+
+.pay-radio {
+  float: right;
+}
+
+.weui-cell__bd image {
+  width: 46rpx;
+  height: 46rpx;
+  margin-top: 27rpx;
+  padding-right: 20rpx;
+}

@@ -1,0 +1,28 @@
+<template name="carManage-item">
+  <view class="item">
+    <view class="manage-t">
+      <view class="info">
+        <image src='../../resource/images/carManage.png'></image>
+        <text class="num">粤G·123451</text>
+      </view>
+      <text class="label">已认证</text>
+      <image class="trash" src='../../resource/images/trash.png'></image>
+      <!--未认证样式写入样式表-->
+    </view>
+    <view class="page-section">
+      <view class="weui-cell_switch">
+        <view class="weui-cell__bd">免密支付</view>
+        <view class="weui-cell__ft">
+          <switch/>
+        </view>
+      </view>
+      <view class="weui-cell_switch">
+        <view class="weui-cell__bd">消息推送</view>
+        <view class="weui-cell__ft">
+          <switch />
+        </view>
+      </view>
+    </view>
+  </view>
+
+</template>

@@ -1,0 +1,10 @@
+<!--pages/callAdmin/callAdmin.wxml-->
+<view class="call-admin-con">
+  <text class="tit">{{admin.parkName}}</text>
+  <text class="name">{{admin.adminName}}</text>
+  <text class="category">{{admin.position}}</text>
+  <text class="num">{{admin.phoneNum}}</text>
+  <view>
+    <image catchtap='makePhoneCall' src='../../resource/images/phone.png'></image>
+  </view>
+</view>

@@ -1,0 +1,55 @@
+<!--pages/parkingDetail/parkingDetail.wxml-->
+<view class="parking-detail-pic">
+  <image src='../../resource/images/parkingDetail.jpg'></image>
+</view>
+<view class="parking-detail-info">
+  <view class="tit">
+    <text>{{parkDetail.parkName}}</text>
+    <image src='../../resource/images/s.png'></image>
+    <text class="length">{{parkDetail.howFar}}km</text>
+  </view>
+  <view class="info">{{parkDetail.parkAddress}}</view>
+  <view class="info">
+    <text>空车位：<text class="orange">{{parkDetail.freeStall}}</text></text>
+    <text class="allnum">总车位：<text class="grey">{{parkDetail.countStall}}</text></text>
+  </view>
+  <image class="dh-big" src='../../resource/images/dh-big.png' catchtap='goToNavigation'></image>
+</view>
+<view class="charge">
+  <text class="tit">收费详情</text>
+  <view class="rule">
+    <image src='../../resource/images/rule.png'></image>
+    <text>收费规则：{{parkDetail.costRule.time}} </text>
+  </view>
+  <view class="table">
+    <view class="tr">
+      <view class="th first">时间</view>
+      <view class="th second">停车时间(小时)</view>
+      <view class="th third">价格(元)</view>
+    </view>
+    <block wx:for="{{parkDetail.costRule.timeQuantum}}" wx:key="{{}}">
+      <view class="tr">
+        <view class="td first">{{item.time}}</view>
+        <view class="td second">
+          <text decode='true'>&lt;{{item.stopTime}}</text>
+        </view>
+        <view class="td third">{{item.price}}</view>
+      </view>
+    </block>
+    <!-- <view class="tr">
+       <view class="td first">00：00-07:30</view>
+       <view class="td second"><text decode='true'>&lt;0.5</text></view>
+       <view class="td third orange">收费</view>
+     </view>
+     <view class="tr">
+       <view class="td first">00：00-07:30</view>
+       <view class="td second"><text decode='true'>&lt;0.5</text></view>
+       <view class="td third">免费</view>
+     </view> -->
+  </view>
+  <view class="rule">
+    <image src='../../resource/images/time.png'></image>
+    <text>开放时间：00：00~23：59</text>
+  </view>
+</view>
+<view class="bg"></view>

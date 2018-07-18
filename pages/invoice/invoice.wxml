@@ -1,0 +1,10 @@
+<!--pages/invoice/invoice.wxml-->
+<view class="invoice-tips">
+  <image src='../../resource/images/tips.png'></image>
+  <text>若您需要开具发票，请于停车缴费后向停车场管理员索要，或者于次日前往停车缴费地点申请打印发票</text>
+</view>
+<view class="invoice-list">
+  <text class="item">赤坎区</text>
+  <text class="item">地址：湛江市赤坎区人民大道南22号</text>
+  <text class="item">电话：0759-1234567</text>
+</view>

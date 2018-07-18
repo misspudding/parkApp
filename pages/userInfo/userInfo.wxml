@@ -1,0 +1,52 @@
+<!--pages/userInfo/userInfo.wxml-->
+<view class="user-info-top">
+  <view class="user-info-name">
+    <image class="peo" src='../../resource/images/peo.png'></image>
+    <view class="user-info-font">
+      <view catchtap='openBindPhoneNumber'>
+        <text>未验证手机号</text>
+        <image src='../../resource/images/wyz.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class="user-info-btn">
+    <view class="btn-item">
+      <text class="tit">账户余额</text>
+      <text class="detail">100.00</text>
+    </view>
+    <view class="btn-item">
+      <text class="tit">优惠券</text>
+      <text class="detail">3</text>
+    </view>
+    <view class="btn-item">
+      <text class="tit">停车月卡</text>
+      <text class="detail">3</text>
+    </view>
+  </view>
+</view>
+<view class="user-info-box" catchtap='openWallet'>
+  <view class="box-item">
+    <image src='../../resource/images/wdqb.png'></image>
+    <text>我的钱包</text>
+  </view>
+  <view class="box-item" catchtap='openMoonCardManager'>
+    <image src='../../resource/images/ykgl.png'></image>
+    <text>月卡管理</text>
+  </view>
+  <view class="box-item" catchtap='openCarManager'>
+    <image src='../../resource/images/clgl.png'></image>
+    <text>车辆管理</text>
+  </view>
+  <view class="box-item" catchtap='openParkingRecord'>
+    <image src='../../resource/images/tcjl.png'></image>
+    <text>停车记录</text>
+  </view>
+  <view class="box-item" catchtap='openInvoiceManager'>
+    <image src='../../resource/images/fpsl.png'></image>
+    <text>发票申领</text>
+  </view>
+  <view class="box-item" catchtap='openAboutUs'>
+    <image src='../../resource/images/gywm.png'></image>
+    <text>关于我们</text>
+  </view>
+</view>

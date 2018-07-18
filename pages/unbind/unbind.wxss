@@ -1,0 +1,37 @@
+/* pages/unbind/unbind.wxss */
+.unbind-con{
+  text-align:center;
+  padding-top:240rpx;
+}
+.unbind-con image{
+  width:127rpx;
+  height:165rpx;
+}
+.unbind-con text{
+  display:block;
+  font-size:28rpx;
+  color:#666;
+}
+.unbind-con text.sorry{
+  height:108rpx;
+  line-height:108rpx;
+}
+.unbind-con text.tips{
+  margin:20rpx 124rpx 0 124rpx;
+  font-size: 22rpx;
+  line-height: 40rpx;
+  text-align:left;
+}
+.btn-unbind{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: linear-gradient(to right, #6fbeff, #1f84fe);
+  border-radius: 0;
+  color: #fff;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  border:none;
+  text-align:center;
+}

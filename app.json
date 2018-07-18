@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userInfo/userInfo",
+    "pages/carManage/carManage",
+    "pages/bindPhoneNumber/bindPhoneNumber",
+    "pages/addMonthCar/addMonthCar",
+    "pages/myWallet/myWallet",
+    "pages/parkDetail/parkDetail",
+    "pages/aboutUs/aboutUs",
+    "pages/caradd/caradd",
+    "pages/moreParking/moreParking",
+    "pages/monthCard/monthCard",
+    "pages/pay/pay",
+    "pages/callAdmin/callAdmin",
+    "pages/carAuthentication/carAuthentication",
+    "pages/carRenewal/carRenewal",
+    "pages/parkRecord/parkRecord",
+    "pages/paySuccess/paySuccess",
+    "pages/recharge/recharge",
+    "pages/invoice/invoice",
+    "pages/unbind/unbind",
+    "pages/parkPay/parkPay",
+    "pages/refund/refund",
+    "pages/parking/parking",
+    "pages/inner/inner",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2084fe",
+    "navigationBarTitleText": "湛江停车",
+    "navigationBarTextStyle": "white",
+    "backgroundColorBottom": "white",
+    "backgroundColorTop": "#2084fe"
+  }
+}

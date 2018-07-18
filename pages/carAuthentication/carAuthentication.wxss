@@ -1,0 +1,98 @@
+/* pages/carAuthentication/carAuthentication.wxss */
+
+.carauthentication-t {
+  margin: 0 35rpx;
+  font-size: 32rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.carauthentication-t text.font {
+  float: left;
+}
+
+.carauthentication-t view {
+  float: left;
+  padding: 0 5px;
+  color: #fe6133;
+}
+.carauthentication-t view text{
+  float:left;
+}
+.carauthentication-t view text.point {
+  margin:49rpx 8rpx 0 8rpx;
+  width:4rpx;
+  height:4rpx;
+  background:#f00;
+  border-radius:50%;
+  display:block;
+}
+
+.carauthentication-c {
+  position: relative;
+}
+
+.carauthentication-c .part {
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+
+.carauthentication-c .part view {
+  width: 504rpx;
+  height: 320rpx;
+  background: #eef1fa;
+  border-radius: 8rpx;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carauthentication-c .part view image {
+  width: 148rpx;
+  height: 148rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carauthentication-c .part text {
+  line-height: 80rpx;
+  color:#9fa5b0;
+  font-size: 32rpx;
+}
+.tips{
+  font-size: 26rpx;
+  text-align:center;
+  height:20px;
+  line-height:20px;
+}
+.tips-con{
+  display: inline-block;
+}
+
+.tips image{
+  width:28rpx;
+  height:28rpx;
+  padding-right:10rpx;
+  float:left;
+  margin-top:3px;
+
+}
+.tips text{
+  line-height: 40rpx;
+  float:left;
+  color:#9fa5b0;
+  }
+.btn-next{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: linear-gradient(to right, #6fbeff, #1f84fe);
+  border-radius: 0;
+  color: #fff;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  border:none;
+  text-align:center;
+}

@@ -1,0 +1,17 @@
+<template name="monthCard-item">
+  <view class='card'>
+    <view class="part">
+      <view class="card-info">
+        <view class="card-pic">
+          <image src='../../resource/images/card.png'></image>
+        </view>
+        <text class="num"><text>粤G</text>
+        <text class="pointer"></text>
+        <text>DY910</text></text>
+        <text class="month">停车月卡</text>
+      </view>
+      <text class="adress">湛江市保利原点外围停车场</text>
+      <text class="time">有效期至<text>2018.8.30</text></text>
+    </view>
+  </view>
+</template>

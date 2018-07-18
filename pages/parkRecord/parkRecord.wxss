@@ -1,0 +1,124 @@
+/* pages/parkRecord/parkRecord.wxss */
+.park-record-choose{
+  height:85rpx;
+  line-height:85rpx;
+  padding:0 35rpx;
+  background:#fff;
+}
+.park-record-choose .ul{
+  float:left;
+  margin-top:14rpx;
+  overflow:hidden;
+}
+.park-record-choose .ul .li{
+  float:left;
+  display:block;
+  width:137rpx;
+  height:57rpx;
+  line-height: 57rpx;
+  border:1rpx solid #eaeaea;
+  margin-right:26rpx;
+  font-size: 28rpx;
+  text-align:center;
+  border-radius:8rpx;
+  color:#666;
+}
+.park-record-choose .more{
+  float:right;
+  font-size: 28rpx;
+  color:#666;
+  height:85rpx;
+  line-height:85rpx;
+}
+.park-record-info{
+  border-top:1rpx solid #eaeaea;
+  border-bottom:1rpx solid #eaeaea;
+  margin-bottom:30rpx;
+  background:#fff;
+}
+.park-record-info .tit{
+  margin-left:35rpx;
+  padding-right:35rpx;
+  height:80rpx;
+  line-height:80rpx;
+  border-bottom:1rpx solid #eaeaea;
+}
+.park-record-info .tit .carnum{
+  float:left;
+  font-size: 36rpx;
+  font-family:"黑体";
+}
+.park-record-info .tit .classify{
+  float:right;
+  color:#666;
+  font-size: 26rpx;
+}
+.park-record-info .detail{
+  height:150rpx;
+  line-height: 150rpx;
+  padding:30rpx 35rpx;
+  box-sizing:border-box;
+  border-bottom:1rpx solid #eaeaea;
+}
+.park-record-info .detail image{
+  width:85rpx;
+  height:85rpx;
+  float:left;
+  margin-top:5rpx;
+}
+.park-record-info .detail view{
+  float:left;
+  overflow:hidden;
+  margin-left:10rpx;
+}
+.park-record-info .detail view .adress{
+  font-size: 32rpx;
+  color:#333;
+  display:block;
+  height:43rpx;
+  line-height:43rpx;
+}
+.park-record-info .detail view .time{
+  font-size: 26rpx;
+  color:#666;
+  display:block;
+  height:42rpx;
+  line-height:42rpx;
+  margin-top:10rpx;
+}
+.park-record-info .detail .money{
+  float:right;
+  height:100rpx;
+  line-height:100rpx;
+  font-size: 36rpx;
+}
+.park-record-info .into-btom{
+  padding:0 35rpx;
+  overflow:hidden;
+  height:70rpx;
+  line-height:70rpx;
+  width:100%;
+  box-sizing: border-box;
+}
+.park-record-info .into-btom .time{
+  float:left;
+  font-size: 26rpx;
+  color:#666;
+}
+.park-record-info .into-btom .coupon{
+  float:right;
+  font-size: 26rpx;
+  color:#666;
+}
+.park-record-info .into-btom .time text{
+  padding-left:10rpx;
+}
+.bg{
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background:#f3f4f5;
+  z-index:-9999;
+}

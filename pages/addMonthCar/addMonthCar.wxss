@@ -1,0 +1,125 @@
+/* pages/addMonthCar/addMonthCar.wxss */
+
+.add-month-car-con {
+  margin: 30rpx 35rpx 0 35rpx;
+}
+
+.add-month-section {
+  margin-bottom: 10rpx;
+}
+
+.add-month-section .add-month-title {
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.add-month-section .add-month-title text {
+  color: #db001c;
+  padding-right: 10rpx;
+}
+
+.add-month-section .add-month-input {
+  height: 90rpx;
+  line-height: 90rpx;
+  border: 1rpx solid #eaeaea;
+  border-radius: 8rpx;
+}
+
+.parkpicker {
+  position: relative;
+}
+
+.section {
+  font-size: 28rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 88;
+  padding: 0 20rpx;
+  border-radius: 12rpx;
+}
+
+.section image {
+  width: 16rpx;
+  height: 13rpx;
+  float: right;
+  margin-top: 38rpx;
+}
+
+.add-month-section .add-month-input input {
+  padding: 0 20rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 28rpx;
+}
+
+.add-month-section .add-month-input picker {
+  padding: 0 20rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 28rpx;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  right: 0;
+  background: #fff;
+  border-radius: 12rpx;
+}
+
+.add-month-section .add-month-input input.parking-input {
+  float: left;
+}
+
+.add-month-section .add-month-input button.obtain {
+  font-size: 32rpx;
+  background: linear-gradient(to left, #6fbeff, #1f84fe);
+  padding: 0 20rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  float: right;
+  border-radius: 0 8rpx 8rpx 0;
+  color: #fff;
+  width:187rpx;
+  text-align:center;
+  box-sizing:border-box;
+}
+.add-month-section .add-month-input button.obtain:after{
+  border:none;
+
+}
+.add-month-section .add-month-input input.parking-input {
+  float: left;
+}
+
+.btn-add {
+  width: 100%;
+  background: linear-gradient(to left, #6fbeff, #1f84fe);
+  color: #fff;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  border: none;
+  text-align: center;
+  margin-top: 80rpx;
+  border-radius: 8rpx;
+}
+
+.row-wrap {
+  width: 680rpx;
+  margin: 0 auto;
+  background: #eee;
+  position: relative;
+}
+
+.on {
+  display: block;
+}
+
+.off {
+  display: none;
+}

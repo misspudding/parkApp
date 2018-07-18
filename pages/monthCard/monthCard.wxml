@@ -1,0 +1,9 @@
+<!--pages/monthCard/monthCard.wxml-->
+<import src="monthCard-item/monthCard-item-template.wxml" />
+<view class="month-card-con" catchtap='openMonthcard'>
+  <text>添加更多月卡</text>
+  <image src='../../resource/images/add.png'></image>
+</view>
+<block wx:for="{{3}}" wx:key="{{}}">
+  <template is="monthCard-item"></template>
+</block>

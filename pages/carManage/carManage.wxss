@@ -1,0 +1,29 @@
+/* pages/carManage/carManage.wxss */
+@import "carManage-item/carManage-item-template.wxss";
+
+.bg {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #f3f4f5;
+  z-index: -9999;
+}
+
+/*未认证样式*/
+
+.manage-t .label-wrz {
+  display: block;
+  float: right;
+  font-size: 14px;
+  width: 130rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-top: 38rpx;
+  border: 1rpx solid #ff9a14;
+  color: #ff9a14;
+  text-align: center;
+  border-radius: 30rpx;
+  margin-right: 10px;
+}

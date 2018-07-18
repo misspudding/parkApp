@@ -1,0 +1,143 @@
+/* pages/parkingDetail/parkingDetail.wxss */
+.parking-detail-pic{
+  width:750rpx;
+  height:374rpx;
+}
+.parking-detail-pic image{
+  width:750rpx;
+  height:374rpx;
+}
+.parking-detail-info{
+  position:relative;
+  padding:10px;
+  background:#fff;
+  margin-bottom:15px;
+}
+.parking-detail-info .tit{
+  font-size: 40rpx;
+  overflow:hidden;
+}
+.parking-detail-info .tit text{
+  float:left;
+  height:50rpx;
+  line-height: 50rpx;
+  margin-bottom:10rpx;
+}
+
+.parking-detail-info .tit text.length{
+  padding:0 5px;
+  font-size:14px;
+  border:1rpx solid #929292;
+  color:#929292;
+  border-radius:4px;
+  height:40rpx;
+  line-height:40rpx;
+  box-sizing:border-box;
+  margin:5rpx 0 0 5px;
+  padding-bottom:1px;
+}
+.parking-detail-info .info{
+  font-size:36rpx;
+  line-height:60rpx;
+  color:#999;
+}
+.parking-detail-info .info .orange{
+  color:#ff9a14;
+  padding-left:5px;
+}
+.parking-detail-info .info .grey{
+  padding-left:5px;
+}
+.parking-detail-info .info .allnum{
+  padding-left:20px;
+}
+.parking-detail-info .tit image{
+  width:40rpx;
+  height:40rpx;
+  float:left;
+  margin:5rpx 0 0 10rpx;
+}
+.dh-big{
+  position:absolute;
+  width:110rpx;
+  height:110rpx;
+  right:10px;
+  top:-30rpx;
+  border-radius:50%;
+}
+.charge{
+  padding:10px 10px 5px 10px;
+  background:#fff;
+}
+.charge .tit{
+  font-size: 40rpx;
+  height:30px;
+  line-height: 30px;
+  display:block;
+}
+.rule{
+  height:70rpx;
+  line-height:70rpx;
+  font-size: 36rpx;
+  color:#666;
+  margin-bottom:5px;
+}
+.rule image{
+  width:40rpx;
+  height:40rpx;
+  padding-right:5px;
+  float:left;
+  margin-top:15rpx;
+}
+.table {
+border: 1px solid #dadada;
+border-right: 0;
+border-bottom: 0;
+width: 100%;
+margin-bottom:5px;
+}
+
+.tr {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+
+.th, .td {
+padding: 10px;
+border-bottom: 1px solid #dadada;
+border-right: 1px solid #dadada;
+text-align: center;
+width: 100%;
+font-size: 32rpx;
+}
+.td{
+  color:#929292;
+}
+.th {
+font-weight: 400;
+background-color: #b7deff;
+font-size: 32rpx;
+}
+.first{
+  width:38%;
+}
+.second{
+  width:37%;
+}
+.third{
+  width:25%;
+}
+.third.orange{
+  color:#ff9a14;
+}
+.bg{
+  position:fixed;
+  background:#f3f4f5;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index:-9999;
+}

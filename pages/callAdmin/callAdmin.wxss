@@ -1,0 +1,62 @@
+/* pages/callAdmin/callAdmin.wxss */
+
+.call-admin-con {
+  margin-top: 282rpx;
+}
+
+.call-admin-con text {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.call-admin-con text.tit {
+  height: 54rpx;
+  line-height: 54rpx;
+  font-size: 32rpx;
+  color: #666;
+}
+
+.call-admin-con text.name {
+  font-size: 36rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+
+.call-admin-con text.category {
+  width: 146rpx;
+  height: 38rpx;
+  line-height: 38rpx;
+  background: #ff9a14;
+  color: #fff;
+  font-size: 26rpx;
+  border-radius: 8rpx;
+  margin-bottom: 10rpx;
+}
+
+.call-admin-con text.num {
+  font-size: 36rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  color: #666;
+  margin-bottom: 60rpx;
+}
+
+.call-admin-con view {
+  width: 145rpx;
+  height: 145rpx;
+  border-radius: 50%;
+  background: #04be33;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 145rpx;
+}
+
+.call-admin-con view image {
+  width: 61rpx;
+  height: 61rpx;
+  padding-top:42rpx;
+}

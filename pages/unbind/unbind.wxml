@@ -1,0 +1,7 @@
+<!--pages/unbind/unbind.wxml-->
+<view class="unbind-con">
+  <image src='../../resource/images/unbind.png'></image>
+  <text class="sorry">抱歉，暂未找到停车订单</text>
+  <text class="tips">请确认您当前停车的车辆已绑定。如果是为其他车辆停车付费，请查找车辆并再次尝试付费</text>
+  <view class="btn-unbind">查找其他车辆</view>
+</view>

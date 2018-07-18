@@ -1,0 +1,49 @@
+/* pages/paySuccess/paySuccess.wxss */
+.pay-success-con{
+  margin:0 auto;
+  text-align:center;
+  padding-top:30rpx;
+}
+.pay-success-con image{
+  width:175rpx;
+  height:175rpx;
+}
+
+.pay-success-con text.success{
+  font-size: 28rpx;
+  color:#666;
+  height:100rpx;
+  line-height:100rpx;
+  margin-bottom:30rpx;
+  display:block;
+}
+.pay-success-con text.tit{
+  font-size: 36rpx;
+  height:70rpx;
+  line-height:70rpx;
+  display:block;
+  color:#666;
+}
+.pay-success-con text.tips{
+  font-size: 22rpx;
+  height:65rpx;
+  line-height:65rpx;
+  display:block;
+  color:#666;
+}
+.pay-success-con text.tips text{
+  color:#ff7d14;
+}
+.btn-sure{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: linear-gradient(to left, #6fbeff, #1f84fe);
+  border-radius: 0;
+  color: #fff;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  border:none;
+  text-align:center;
+}

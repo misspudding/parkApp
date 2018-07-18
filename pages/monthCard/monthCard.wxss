@@ -1,0 +1,21 @@
+/* pages/monthCard/monthCard.wxss */
+@import "monthCard-item/monthCard-item-template.wxss";
+
+.month-card-con {
+  width: 651rpx;
+  margin: 47rpx auto;
+  height: 34rpx;
+}
+
+.month-card-con text {
+  float: right;
+  font-size: 32rpx;
+  line-height: 34rpx;
+}
+
+.month-card-con image {
+  width: 34rpx;
+  height: 34rpx;
+  float: right;
+  padding-right: 10rpx;
+}

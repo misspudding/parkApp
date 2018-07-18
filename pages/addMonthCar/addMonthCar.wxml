@@ -1,0 +1,46 @@
+<!--pages/addMonthCar/addMonthCar.wxml-->
+<view class="add-month-car-con">
+  <view class="add-month-section">
+    <view class="add-month-title">停车场</view>
+    <view class="add-month-input parkpicker">
+      <picker bindchange="bindCasPickerChange" value="{{casIndex0}}" range="{{casArray}}" style='opacity:{{num}}'>
+        <view class="weui-input">
+          <text>{{casArray[casIndex]}}</text>
+        </view>
+      </picker>
+      <view class="section {{reply?'on':'off'}}" catchtap='hiddenFun'>
+        <text>请输入停车场</text>
+        <image src='../../resource/images/san.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class="add-month-section">
+    <view class="add-month-title">月卡号</view>
+    <view class="add-month-input">
+      <input type='number' />
+    </view>
+  </view>
+  <view class="add-month-section">
+    <view class="add-month-title">
+      <text>*</text>车牌号码</view>
+    <view class="add-month-input">
+      <input/>
+    </view>
+  </view>
+  <view class="add-month-section">
+    <view class="add-month-title">
+      <text>*</text>手机号码</view>
+    <view class="add-month-input">
+      <input type='number' />
+    </view>
+  </view>
+  <view class="add-month-section">
+    <view class="add-month-title">
+      <text>*</text>验证码</view>
+    <view class="add-month-input">
+      <input class="parking-input" type='number' />
+      <button class="obtain" disabled='{{disabled}}' data-id="2" bindtap="getVerificationCode" style='background:linear-gradient(to left, #6fbeff, #1f84fe); color:#fff;'>{{time}}</button>
+    </view>
+  </view>
+  <view class="btn-add">添加</view>
+</view>

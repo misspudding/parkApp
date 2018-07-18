@@ -1,0 +1,63 @@
+<!--pages/refund/refund.wxml-->
+<view class="top-bg">
+  <view class="refund-con">
+    <view class="refund-t">
+      <text class="num">粤G·12345</text>
+      <text class="time">2018.05.09</text>
+    </view>
+    <view class="refund-c">
+      <view class="address">
+        <text class="address-t">湛江市保利原景外围停车场</text>
+        <view class="address-dw">
+          <image src='../../resource/images/dw.png'></image>
+          <text>xxxxxx路xxxxxx街18号</text>
+        </view>
+      </view>
+      <view class="money">
+        <text class="much">7</text>
+        <text class="icon">￥</text>
+      </view>
+    </view>
+    <view class="progress">
+      <image src='../../resource/images/circle.png'></image>
+      <text></text>
+      <image src='../../resource/images/circle.png'></image>
+      <text></text>
+      <image src='../../resource/images/circle.png'></image>
+    </view>
+    <view class="time-title">
+      <text>入场时间</text>
+      <text>出场时间</text>
+      <text>停车时长</text>
+    </view>
+    <view class="time-info">
+      <text>11:00</text>
+      <text>12:00</text>
+      <text>1小时</text>
+    </view>
+  </view>
+</view>
+<view class="list">
+  <view class="list-item">
+    <view class="item-l">
+      <image src='../../resource/images/refund-icon01.png'></image>
+      <text>优惠券</text>
+    </view>
+    <text class="item-r">-5（满20元可用）</text>
+  </view>
+  <view class="list-item">
+    <view class="item-l">
+      <image src='../../resource/images/refund-icon02.png'></image>
+      <text>实际应支付</text>
+    </view>
+    <text class="item-r red">￥2</text>
+  </view>
+  <view class="list-item">
+    <view class="item-l">
+      <text>退款原因</text>
+    </view>
+    <text class="item-r">请选择<text decode='true'>&gt;</text></text>
+  </view>
+</view>
+<view class="btn-submit">提交</view>
+<view class="bg"></view>
