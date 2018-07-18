@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/monthCard/monthCard",
     "pages/carRenewal/carRenewal",
     "pages/parkRecord/parkRecord",
     "pages/index/index",
@@ -12,7 +13,6 @@
     "pages/aboutUs/aboutUs",
     "pages/caradd/caradd",
     "pages/moreParking/moreParking",
-    "pages/monthCard/monthCard",
     "pages/pay/pay",
     "pages/callAdmin/callAdmin",
     "pages/carAuthentication/carAuthentication",
