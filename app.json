@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/index/index",  
+    "pages/parking/parking",
     "pages/monthCard/monthCard",
     "pages/carRenewal/carRenewal",
     "pages/parkRecord/parkRecord",
-    "pages/index/index",
     "pages/userInfo/userInfo",
     "pages/bindPhoneNumber/bindPhoneNumber",
     "pages/carManage/carManage",
@@ -22,7 +23,6 @@
     "pages/unbind/unbind",
     "pages/parkPay/parkPay",
     "pages/refund/refund",
-    "pages/parking/parking",
     "pages/inner/inner",
     "pages/logs/logs"
   ],
