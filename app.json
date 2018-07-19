@@ -1,9 +1,8 @@
 {
   "pages": [
+    "pages/carRenewal/carRenewal",
     "pages/index/index",  
     "pages/parking/parking",
-    "pages/monthCard/monthCard",
-    "pages/carRenewal/carRenewal",
     "pages/monthCard/monthCard",
     "pages/parkRecord/parkRecord",
     "pages/userInfo/userInfo",
