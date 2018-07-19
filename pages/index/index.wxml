@@ -23,7 +23,7 @@
       <image src='../../resource/images/pic.png'></image>
     </view>
     <view class='card'>
-      <view class="part">
+      <view class="part" catchtap='openMonthCard'>
         <view class="card-info">
           <view class="card-pic">
             <image src='../../resource/images/card.png'></image>

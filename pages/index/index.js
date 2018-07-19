@@ -78,5 +78,14 @@ Page({
     wx.navigateTo({
       url: '../callAdmin/callAdmin'
     })
+  },
+
+  /**
+   * 打开月卡管理（首页）
+   */
+  openMonthCard: function (e) {
+    wx.navigateTo({
+      url: '../monthCard/monthCard',
+    })
   }
 })
