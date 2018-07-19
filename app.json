@@ -4,6 +4,7 @@
     "pages/parking/parking",
     "pages/monthCard/monthCard",
     "pages/carRenewal/carRenewal",
+    "pages/monthCard/monthCard",
     "pages/parkRecord/parkRecord",
     "pages/userInfo/userInfo",
     "pages/bindPhoneNumber/bindPhoneNumber",
