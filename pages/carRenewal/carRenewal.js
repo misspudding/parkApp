@@ -26,13 +26,18 @@ Page({
     console.log("originalMonth:" + parseInt(timeArray[1]));
     var day = parseInt(timeArray[2]);
     if (month > 12) {
-      month ='0'+ 1;
-      if(month < 10){
-        month = '0' + month
-      }else{
-        
-      }
+      month = '0' + 1;
       year += 1;
+    }
+    if (month < 10) {
+      month = '0' + month
+    } else {
+      month = month
+    }
+    if (day < 10) {
+      day = '0' + day
+    } else {
+      day = day
     }
     var date = (year + '.' + month + '.' + day)
     return date;
