@@ -7,7 +7,7 @@ Page({
   data: {
     items: [
       { img:'../../resource/images/yezf.png',value: 'YEZF', name: '余额支付', checked: 'true' },
-      { img: '../../resource/images/wxzf.png',value: 'WECHAT', name: '微信' },
+      { img: '../../resource/images/wxzf.png',value: 'WECHAT', name: '微信支付' },
     ]
   },
 

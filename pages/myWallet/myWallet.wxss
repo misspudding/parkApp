@@ -3,8 +3,7 @@
   padding:30rpx;
   background:#2084fe;
   color:#fff;
-  display: flex;
-  flex-flow:column;
+  overflow:hidden;
 }
 .my-wallet-top .my-wallet-l{
   width:50%;
@@ -62,7 +61,8 @@
 }
 .my-wallet-top .my-wallet-r{
   float:left;
-  width:50px;
+  width:50%;
+  height:200rpx;
   box-sizing:border-box;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .swiper-tab-list {
-  font-size: 30rpx;
+  font-size: 32rpx;
   display: inline-block;
   width: 33.3%;
   color: #777;
@@ -97,8 +97,8 @@
 
 .item-con .item-tit{
  padding:0 35rpx;
-  height:117rpx;
-  line-height: 117rpx;
+  height:90rpx;
+  line-height: 90rpx;
   background:#f8f8f8;
   font-size: 32rpx;
   color:#333;
@@ -135,7 +135,7 @@
 }
 .item-con .item-box .line view{
   float:left;
-  margin-left:10rpx;
+  margin-left:20rpx;
 }
 .item-con .item-box .line view text.tit{
   display:block;
@@ -157,8 +157,77 @@
 .item-con .item-box .line .recharge{
   float:right;
   color:#fe6133;
-  font-size: 36rpx;
+  font-size: 32rpx;
   text-align:right;
   height:80rpx;
   line-height:80rpx;
+}
+
+/*进度条*/
+.content {
+  width: 100%;
+  height: 290rpx;
+  margin: 0 auto;
+  position: relative;
+}
+
+.canvasI {
+  width: 360rpx;
+  height: 290rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto auto;
+}
+
+.canvasII {
+  width: 360rpx;
+  height: 290rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto auto;
+}
+
+.btn {
+  position: absolute;
+  width: 200rpx;
+  bottom: 30rpx;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.canvas-info{
+  position:absolute;
+  right:115rpx;
+  top:120rpx;
+  width:158rpx;
+  height:150rpx;
+  text-align:center;
+  z-index:999;
+}
+.canvas-info .info-t text{
+  font-size:22rpx;
+  color:#fff;
+  opacity:0.6;
+}
+.canvas-info .info-t text.num{
+  color:#fff;
+  opacity:1;
+  font-size: 36rpx;
+}
+.canvas-info .info-tit{
+  width:123rpx;
+  height:36rpx;
+  line-height:36rpx;
+  font-size: 22rpx;
+  background:#79b5fe;
+  color:#fff;
+  border-radius:18rpx;
+  margin:30rpx auto 0 auto;
+
 }

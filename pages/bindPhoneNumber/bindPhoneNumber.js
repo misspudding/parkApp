@@ -31,4 +31,8 @@ Page({
       disabled: true
     })
   },
+
+  getphonenumber: function () {
+    
+  }
 })

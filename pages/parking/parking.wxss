@@ -162,9 +162,9 @@ padding-top:20rpx;
   background: linear-gradient(to right, #6fbeff, #1f84fe);
   border-radius: 0;
   color: #fff;
-  height: 100rpx;
-  line-height: 100rpx;
-  font-size: 36rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 32rpx;
   border:none;
   text-align:center;
 }

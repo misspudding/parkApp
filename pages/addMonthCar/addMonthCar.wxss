@@ -1,17 +1,22 @@
-/* pages/addMonthCar/addMonthCar.wxss */
-
 .add-month-car-con {
-  margin: 30rpx 35rpx 0 35rpx;
+  margin: 0;
 }
 
 .add-month-section {
-  margin-bottom: 10rpx;
+  margin-bottom: 0;
+  overflow: hidden;
+  border-bottom: 1rpx solid #eaeaea;
+  padding: 0 35rpx;
+  background: #fff;
 }
 
 .add-month-section .add-month-title {
   font-size: 28rpx;
-  height: 80rpx;
-  line-height: 80rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  float: left;
+  width: 130rpx;
+  color: #666;
 }
 
 .add-month-section .add-month-title text {
@@ -22,8 +27,10 @@
 .add-month-section .add-month-input {
   height: 90rpx;
   line-height: 90rpx;
-  border: 1rpx solid #eaeaea;
-  border-radius: 8rpx;
+  border: none;
+  border-radius: 0;
+  margin-left: 150rpx;
+  overflow: hidden;
 }
 
 .parkpicker {
@@ -40,14 +47,21 @@
   right: 0;
   z-index: 88;
   padding: 0 20rpx;
-  border-radius: 12rpx;
+  color: #666;
 }
 
-.section image {
+.section text {
+  height: 90rpx;
+  line-height: 90rpx;
+  float: left;
+}
+
+.add-month-section .add-month-input view image {
   width: 16rpx;
-  height: 13rpx;
-  float: right;
-  margin-top: 38rpx;
+  height: 27rpx;
+  padding-left: 10rpx;
+  float: left;
+  padding-top: 32rpx;
 }
 
 .add-month-section .add-month-input input {
@@ -55,6 +69,8 @@
   height: 90rpx;
   line-height: 90rpx;
   font-size: 28rpx;
+  display: block;
+  color: #383838;
 }
 
 .add-month-section .add-month-input picker {
@@ -62,13 +78,46 @@
   height: 90rpx;
   line-height: 90rpx;
   font-size: 28rpx;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 99;
-  right: 0;
   background: #fff;
   border-radius: 12rpx;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+  text-align: left;
+}
+
+.pickerholder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.add-month-section .add-month-input .weui-input {
+  padding: 0 20rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 28rpx;
+  background: #fff;
+  border-radius: 12rpx;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  color: #383838;
+}
+
+.plachold {
+  font-size: 28rpx;
+  color: #666;
+  float: left;
+  padding-left: 20rpx;
 }
 
 .add-month-section .add-month-input input.parking-input {
@@ -84,14 +133,15 @@
   float: right;
   border-radius: 0 8rpx 8rpx 0;
   color: #fff;
-  width:187rpx;
-  text-align:center;
-  box-sizing:border-box;
+  width: 187rpx;
+  text-align: center;
+  box-sizing: border-box;
 }
-.add-month-section .add-month-input button.obtain:after{
-  border:none;
 
+.add-month-section .add-month-input button.obtain:after {
+  border: none;
 }
+
 .add-month-section .add-month-input input.parking-input {
   float: left;
 }
@@ -100,13 +150,14 @@
   width: 100%;
   background: linear-gradient(to left, #6fbeff, #1f84fe);
   color: #fff;
-  height: 100rpx;
-  line-height: 100rpx;
-  font-size: 36rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 32rpx;
   border: none;
   text-align: center;
   margin-top: 80rpx;
-  border-radius: 8rpx;
+  position: fixed;
+  bottom: 0;
 }
 
 .row-wrap {
@@ -122,4 +173,14 @@
 
 .off {
   display: none;
+}
+
+.bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -999;
+  background: #f3f4f5;
 }

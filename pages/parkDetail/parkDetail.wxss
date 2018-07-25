@@ -14,7 +14,7 @@
   margin-bottom:15px;
 }
 .parking-detail-info .tit{
-  font-size: 40rpx;
+  font-size: 36rpx;
   overflow:hidden;
 }
 .parking-detail-info .tit text{
@@ -22,6 +22,7 @@
   height:50rpx;
   line-height: 50rpx;
   margin-bottom:10rpx;
+  color:#383838;
 }
 
 .parking-detail-info .tit text.length{
@@ -37,9 +38,12 @@
   padding-bottom:1px;
 }
 .parking-detail-info .info{
-  font-size:36rpx;
-  line-height:60rpx;
+  font-size:32rpx;
+  line-height:50rpx;
   color:#999;
+}
+.parking-detail-info .info:nth-child(3){
+  font-size:28rpx;
 }
 .parking-detail-info .info .orange{
   color:#ff9a14;
@@ -70,24 +74,25 @@
   background:#fff;
 }
 .charge .tit{
-  font-size: 40rpx;
+  font-size: 32rpx;
   height:30px;
   line-height: 30px;
   display:block;
+  color:#383838;
 }
 .rule{
   height:70rpx;
   line-height:70rpx;
-  font-size: 36rpx;
+  font-size: 32rpx;
   color:#666;
   margin-bottom:5px;
 }
 .rule image{
-  width:40rpx;
-  height:40rpx;
+  width:36rpx;
+  height:36rpx;
   padding-right:5px;
   float:left;
-  margin-top:15rpx;
+  margin-top:19rpx;
 }
 .table {
 border: 1px solid #dadada;
@@ -110,7 +115,8 @@ border-bottom: 1px solid #dadada;
 border-right: 1px solid #dadada;
 text-align: center;
 width: 100%;
-font-size: 32rpx;
+font-size: 28rpx;
+color:#383838;
 }
 .td{
   color:#929292;

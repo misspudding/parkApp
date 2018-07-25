@@ -12,25 +12,26 @@
   height: 80rpx; 
   border-radius: 50rpx;
   background-color: #f3f4f5;
-  margin-top: 60rpx;
+  margin-top: 160rpx;
   margin-left: 50rpx;
 }
 
 .number {
   margin-left: 50rpx;
-  color: #125;
+  color: #383838;
   font-size: 32rpx;
   float:left;
   line-height:80rpx;
 }
 
 .input-phoneNumber {
-  font-size: 32rpx;
+  font-size: 28rpx;
   margin-left: 50rpx;
   display:block;
   float:left;
   height:80rpx;
   line-height:80rpx;
+  color:#383838;
 }
 
 .verification {
@@ -44,7 +45,7 @@
   border: 1px solid #f3f4f5;
   border-radius: 50rpx;
   background-color: #f3f4f5;
-  margin-top: 35rpx;
+  margin-top: 40rpx;
   margin-left: 50rpx;
 }
 
@@ -58,8 +59,8 @@
   margin-left: 20rpx;
   color: #2084fe;
   box-sizing: border-box;
-  font-size: 32rpx;
-  margin-top:35rpx;
+  font-size: 28rpx;
+  margin-top:40rpx;
   background:#fff;
 }
 .verification-btn:after{
@@ -88,8 +89,13 @@
 }
 
 .accredit-text {
-  margin-left: 20rpx;
-  font-size: 32rpx;
+  font-size: 28rpx;
+  display: inline;
+  border: none;
+  background:#fff;
+}
+.accredit-text:after {
+  border:none;
 }
 
 .affirm-checkbox {
@@ -113,7 +119,7 @@
   line-height: 80rpx;
   text-align: center;
   color: white;
-  margin: 50rpx auto 15px auto;
+  margin: 15rpx auto 15rpx auto;
   font-size: 32rpx;
 }
 .explain{

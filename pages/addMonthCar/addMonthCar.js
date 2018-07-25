@@ -4,6 +4,7 @@ Page({
   data: {
     casArray: ['湛江停车场', '霞山停车场', '开发停车场', '南油停车场', '坡头停车场'],
     reply: true,
+    displaySty:'block',
     casIndex: 0,
     num: 0,
     fun_id: 2,
@@ -13,7 +14,8 @@ Page({
   bindCasPickerChange: function (e) {
     this.setData({
       casIndex: e.detail.value,
-      num: 1
+      num: 1,
+      displaySty:'none',
     })
   },
   hiddenFun: function (e) {

@@ -1,9 +1,7 @@
 <!--pages/carRenewal/carRenewal.wxml-->
 <view class="car-renewal-con">
   <view class="car-renewal-tit">
-    本月停车
-    <text>22</text>次 月停车总时长
-    <text>386</text>小时
+    本月停车<text>22</text>次 月停车总时长<text>386</text>小时
   </view>
   <view class='card'>
     <view class="part">

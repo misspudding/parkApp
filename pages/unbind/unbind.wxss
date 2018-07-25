@@ -26,12 +26,12 @@
   position: absolute;
   bottom: 0px;
   width: 100%;
-  background: linear-gradient(to right, #6fbeff, #1f84fe);
+  background: linear-gradient(to left, #6fbeff, #1f84fe);
   border-radius: 0;
   color: #fff;
-  height: 100rpx;
-  line-height: 100rpx;
-  font-size: 36rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 32rpx;
   border:none;
   text-align:center;
 }

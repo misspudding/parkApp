@@ -11,7 +11,7 @@
   </view>
   <view class='accredit-view'>
     <image class='wechat-img' src='../../resource/images/wechat.png'></image>
-    <text class='accredit-text'>微信一键授权</text>
+    <button class='accredit-text' open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">微信一键授权</button>
   </view>
   <view class='submit-view'>提交</view>
   <checkbox class='affirm-checkbox' checked="true">

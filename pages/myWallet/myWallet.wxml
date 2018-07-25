@@ -4,13 +4,13 @@
     <text class="wallet-tit">账户余额</text>
     <text class="balance">200.05</text>
     <view class="btn-my-wallet">
-      <view class="btn-wallet-con">
+      <view class="btn-wallet-con" catchtap='openRecharge'>
         <view>
           <image src='../../resource/images/recharge.png'></image>
           <text>充值</text>
         </view>
       </view>
-      <view class="btn-wallet-con">
+      <view class="btn-wallet-con" catchtap='openDrawCash'>
         <view>
           <image src='../../resource/images/cash.png'></image>
           <text>提现</text>
@@ -19,6 +19,21 @@
     </view>
   </view>
   <view class="my-wallet-r">
+    <view class='content'>
+      <canvas canvas-id='bgCanvas' class='canvasI'></canvas>
+      <canvas canvas-id="runCanvas" class='canvasII'></canvas>
+    </view>
+    <view class="canvas-info">
+       <view class="info-t">
+          <text>已消费:</text>
+          <text class="num">{{before}}</text>
+       </view>
+       <view class="info-tit">本月充值</view>
+       <view>
+         <text class="money">{{after}}</text>
+         <text>元</text>
+       </view>
+    </view>
   </view>
 </view>
 <view class="swiper-tab">
@@ -37,22 +52,22 @@
       <view class="item-box">
         <view class="space"></view>
         <view class="line">
-           <image src='../../resource/images/wxzf.png'></image>
-           <view>
-              <text class="tit">微信充值</text>
-              <text class="date">4月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">+200</text>
+          <image src='../../resource/images/wxzf.png'></image>
+          <view>
+            <text class="tit">微信充值</text>
+            <text class="date">4月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">+200</text>
         </view>
         <view class="line">
-           <image src='../../resource/images/wxzf.png'></image>
-           <view>
-              <text class="tit">微信充值</text>
-              <text class="date">4月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">+200</text>
+          <image src='../../resource/images/wxzf.png'></image>
+          <view>
+            <text class="tit">微信充值</text>
+            <text class="date">4月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">+200</text>
         </view>
-      </view> 
+      </view>
     </view>
     <view class="item-con">
       <view class="item-tit">
@@ -61,70 +76,70 @@
       </view>
       <view class="item-box">
         <view class="line">
-           <image src='../../resource/images/wxzf.png'></image>
-           <view>
-              <text class="tit">微信充值</text>
-              <text class="date">4月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">+200</text>
+          <image src='../../resource/images/wxzf.png'></image>
+          <view>
+            <text class="tit">微信充值</text>
+            <text class="date">4月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">+200</text>
         </view>
         <view class="line">
-           <image src='../../resource/images/wxzf.png'></image>
-           <view>
-              <text class="tit">微信充值</text>
-              <text class="date">4月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">+200</text>
+          <image src='../../resource/images/wxzf.png'></image>
+          <view>
+            <text class="tit">微信充值</text>
+            <text class="date">4月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">+200</text>
         </view>
-      </view> 
+      </view>
     </view>
-     <view class="item-con">
+    <view class="item-con">
       <view class="item-tit">
         <text class="date">2018年3月</text>
         <text class="money">3月累计充值：¥600</text>
       </view>
       <view class="item-box">
         <view class="line">
-           <image src='../../resource/images/wxzf.png'></image>
-           <view>
-              <text class="tit">微信充值</text>
-              <text class="date">4月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">+200</text>
+          <image src='../../resource/images/wxzf.png'></image>
+          <view>
+            <text class="tit">微信充值</text>
+            <text class="date">4月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">+200</text>
         </view>
         <view class="line">
-           <image src='../../resource/images/wxzf.png'></image>
-           <view>
-              <text class="tit">微信充值</text>
-              <text class="date">4月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">+200</text>
+          <image src='../../resource/images/wxzf.png'></image>
+          <view>
+            <text class="tit">微信充值</text>
+            <text class="date">4月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">+200</text>
         </view>
-      </view> 
+      </view>
     </view>
-     <view class="item-con">
+    <view class="item-con">
       <view class="item-tit">
         <text class="date">2018年3月</text>
         <text class="money">3月累计充值：¥600</text>
       </view>
       <view class="item-box">
         <view class="line">
-           <image src='../../resource/images/wxzf.png'></image>
-           <view>
-              <text class="tit">微信充值</text>
-              <text class="date">4月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">+200</text>
+          <image src='../../resource/images/wxzf.png'></image>
+          <view>
+            <text class="tit">微信充值</text>
+            <text class="date">4月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">+200</text>
         </view>
         <view class="line">
-           <image src='../../resource/images/wxzf.png'></image>
-           <view>
-              <text class="tit">微信充值</text>
-              <text class="date">4月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">+200</text>
+          <image src='../../resource/images/wxzf.png'></image>
+          <view>
+            <text class="tit">微信充值</text>
+            <text class="date">4月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">+200</text>
         </view>
-      </view> 
+      </view>
     </view>
   </swiper-item>
   <!-- tab02 -->
@@ -137,22 +152,22 @@
       <view class="item-box">
         <view class="space"></view>
         <view class="line">
-           <image src='../../resource/images/consumption.png'></image>
-           <view>
-              <text class="tit">微信充值</text>
-              <text class="date">4月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">+200</text>
+          <image src='../../resource/images/consumption.png'></image>
+          <view>
+            <text class="tit">微信充值</text>
+            <text class="date">4月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">+200</text>
         </view>
         <view class="line">
-           <image src='../../resource/images/consumption.png'></image>
-           <view>
-              <text class="tit">微信充值</text>
-              <text class="date">4月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">+200</text>
+          <image src='../../resource/images/consumption.png'></image>
+          <view>
+            <text class="tit">微信充值</text>
+            <text class="date">4月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">+200</text>
         </view>
-      </view> 
+      </view>
     </view>
     <view class="item-con">
       <view class="item-tit">
@@ -161,22 +176,22 @@
       </view>
       <view class="item-box">
         <view class="line">
-           <image src='../../resource/images/consumption.png'></image>
-           <view>
-              <text class="tit">停车支出-荣基广场</text>
-              <text class="date">4月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">-5.00</text>
+          <image src='../../resource/images/consumption.png'></image>
+          <view>
+            <text class="tit">停车支出-荣基广场</text>
+            <text class="date">4月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">-5.00</text>
         </view>
         <view class="line">
-           <image src='../../resource/images/consumption.png'></image>
-           <view>
-              <text class="tit">停车支出-荣基广场</text>
-              <text class="date">4月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">-15.00</text>
+          <image src='../../resource/images/consumption.png'></image>
+          <view>
+            <text class="tit">停车支出-荣基广场</text>
+            <text class="date">4月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">-15.00</text>
         </view>
-      </view> 
+      </view>
     </view>
   </swiper-item>
   <!-- tab03 -->
@@ -189,22 +204,22 @@
       <view class="item-box">
         <view class="space"></view>
         <view class="line">
-           <image src='../../resource/images/refund.png'></image>
-           <view>
-              <text class="tit">微信充值</text>
-              <text class="date">4月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">+200</text>
+          <image src='../../resource/images/refund.png'></image>
+          <view>
+            <text class="tit">微信充值</text>
+            <text class="date">4月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">+200</text>
         </view>
         <view class="line">
-           <image src='../../resource/images/refund.png'></image>
-           <view>
-              <text class="tit">微信充值</text>
-              <text class="date">4月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">+200</text>
+          <image src='../../resource/images/refund.png'></image>
+          <view>
+            <text class="tit">微信充值</text>
+            <text class="date">4月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">+200</text>
         </view>
-      </view> 
+      </view>
     </view>
     <view class="item-con">
       <view class="item-tit">
@@ -213,22 +228,22 @@
       </view>
       <view class="item-box">
         <view class="line">
-           <image src='../../resource/images/refund.png'></image>
-           <view>
-              <text class="tit">停车支出-荣基广场</text>
-              <text class="date">3月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">-5.00</text>
+          <image src='../../resource/images/refund.png'></image>
+          <view>
+            <text class="tit">停车支出-荣基广场</text>
+            <text class="date">3月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">-5.00</text>
         </view>
         <view class="line">
-           <image src='../../resource/images/refund.png'></image>
-           <view>
-              <text class="tit">停车支出-荣基广场</text>
-              <text class="date">3月21日<text>10:00</text></text>
-           </view>
-           <text class="recharge">-15.00</text>
+          <image src='../../resource/images/refund.png'></image>
+          <view>
+            <text class="tit">停车支出-荣基广场</text>
+            <text class="date">3月21日<text>10:00</text></text>
+          </view>
+          <text class="recharge">-15.00</text>
         </view>
-      </view> 
+      </view>
     </view>
   </swiper-item>
 

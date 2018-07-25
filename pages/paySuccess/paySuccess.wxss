@@ -2,7 +2,7 @@
 .pay-success-con{
   margin:0 auto;
   text-align:center;
-  padding-top:30rpx;
+  padding-top:150rpx;
 }
 .pay-success-con image{
   width:175rpx;
@@ -18,7 +18,7 @@
   display:block;
 }
 .pay-success-con text.tit{
-  font-size: 36rpx;
+  font-size: 32rpx;
   height:70rpx;
   line-height:70rpx;
   display:block;
@@ -41,9 +41,9 @@
   background: linear-gradient(to left, #6fbeff, #1f84fe);
   border-radius: 0;
   color: #fff;
-  height: 100rpx;
-  line-height: 100rpx;
-  font-size: 36rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 32rpx;
   border:none;
   text-align:center;
 }

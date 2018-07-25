@@ -11,7 +11,7 @@
   position: absolute;
   bottom: 0px;
   width: 100%;
-  background: linear-gradient(to right, #6fbeff, #1f84fe);
+  background: linear-gradient(to left, #6fbeff, #1f84fe);
   border-radius: 0;
   color: #fff;
   height: 50px;
@@ -37,7 +37,8 @@
   text-align:center;
   border-radius:8rpx;
   box-sizing: border-box;
-  font-size:36rpx;
+  font-size:28rpx;
+  color:#383838;
 }
 .text{
   width:750rpx;
@@ -45,11 +46,12 @@
 }
 
 .tit {
-  font-size: 36rpx;
+  font-size: 32rpx;
   padding-left:35rpx;
   height:80rpx;
   line-height:80rpx;
   margin-top:40rpx;
+  color:#383838;
 }
 .recharge-container input{
   display:block;
@@ -58,7 +60,8 @@
   height:80rpx;
   line-height:80rpx;
   border-bottom:1rpx solid #eaeaea;
-  font-size: 32rpx;
+  font-size: 28rpx;
+  color:#383838;
 }
 
 .radio{
@@ -79,7 +82,8 @@
   border-bottom:1rpx solid #eaeaea;
   border-top:1rpx solid #eaeaea;
   margin-top:1rpx;
-  font-size: 32rpx;
+  font-size: 28rpx;
+  color:#383838;
 }
 .tips{
   font-size: 12px;

@@ -41,12 +41,12 @@
   position: absolute;
   bottom: 0px;
   width: 100%;
-  background: linear-gradient(to right, #6fbeff, #1f84fe);
+  background: linear-gradient(to left, #6fbeff, #1f84fe);
   border-radius: 0;
   color: #fff;
-  height: 100rpx;
-  line-height: 100rpx;
-  font-size: 36rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 32rpx;
   border:none;
   text-align:center;
 }
@@ -59,7 +59,7 @@
   padding: 0 35rpx;
   height: 100rpx;
   line-height: 100rpx;
-  font-size: 36rpx;
+  font-size: 32rpx;
   padding-top: 10rpx;
   color: #666;
 }
@@ -83,7 +83,8 @@
 
 .weui-cell__bd text {
   float: left;
-  font-size:16px;
+  font-size:28rpx;
+  color:#383838;
 }
 
 .pay-radio {
@@ -94,5 +95,5 @@
   width: 46rpx;
   height: 46rpx;
   margin-top: 27rpx;
-  padding-right: 20rpx;
+  padding-right: 15rpx;
 }

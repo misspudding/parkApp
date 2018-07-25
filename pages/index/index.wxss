@@ -205,6 +205,7 @@
 .card .part .adress {
   display: block;
   line-height: 70rpx;
+  height:70rpx;
   color: #fff;
   font-size: 32rpx;
   margin-top:30rpx;
@@ -212,11 +213,12 @@
 
 .card .part .time {
   display: block;
-  line-height: 50rpx;
+  height:48rpx;
+  line-height: 48rpx;
   color: #fff;
   font-size:26rpx;
   opacity:0.6;
-  margin-top:28rpx;
+  margin-top:33rpx;
 }
 
 .card .part .time text {
@@ -224,8 +226,12 @@
 }
 
 .parking-tip {
-  padding-top: 20px;
   overflow: hidden;
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:35rpx;
+  z-index:9999;
 }
 
 .parking-icon {

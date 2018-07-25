@@ -5,27 +5,28 @@
 
 .about-us {
   border-bottom: 1rpx solid #eaeaea;
-  height: 100rpx;
+  height: 90rpx;
 }
 
 text {
-  font-size: 32rpx;
+  font-size: 28rpx;
   font-family: Microsoft YaHei;
-  line-height: 100rpx;
+  line-height: 90rpx;
   margin-left: 35rpx;
+  color:#383838;
 }
 
 .user-agreement {
   border-bottom: 1rpx solid #eaeaea;
-  height: 100rpx;
+  height: 90rpx;
 }
 
 .recharge-agreement {
   border-bottom: 1rpx solid #eaeaea;
-  height: 100rpx;
+  height: 90rpx;
 }
 
 .feedback {
   border-bottom: 1rpx solid #eaeaea;
-  height: 100rpx;
+  height: 90rpx;
 }

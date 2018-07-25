@@ -23,11 +23,12 @@
 
 .manage-t .info .num {
   float: left;
-  font-size: 44rpx;
+  font-size: 40rpx;
   font-family: "黑体";
   height: 125rpx;
   line-height: 125rpx;
   margin-left: 5px;
+  color:#383838;
 }
 .manage-t .info text.num {
   float:left;
@@ -42,8 +43,8 @@
   height: 50rpx;
   line-height: 50rpx;
   margin: 38rpx 0 0 10rpx;
-  border: 1rpx solid #04be33;
-  color: #04be33;
+  /* border: 1rpx solid #04be33;
+  color: #04be33; */
   text-align: center;
   border-radius: 30rpx;
   margin-right: 10px;
@@ -54,10 +55,19 @@
   float:right;
   margin-top:45rpx;
 }
-
+.weui-cell__bd  text{
+  float:left;
+}
+.weui-cell__bd  image{
+  float:left;
+  width:21rpx;
+  height:21rpx;
+  padding-top:37rpx;
+  padding-left:10rpx;
+}
 .weui-cell__bd {
   float: left;
-  font-size: 32rpx;
+  font-size: 28rpx;
   color:#666;
 }
 
@@ -69,8 +79,8 @@
   overflow: hidden;
   border-bottom: 1rpx solid #eaeaea;
   padding: 0 20rpx;
-  height: 100rpx;
-  line-height: 100rpx;
+  height: 90rpx;
+  line-height: 90rpx;
 }
 
 .page-section {

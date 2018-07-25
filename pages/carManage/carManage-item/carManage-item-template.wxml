@@ -3,23 +3,23 @@
     <view class="manage-t">
       <view class="info">
         <image src='../../resource/images/carManage.png'></image>
-        <text class="num">粤G·123451</text>
+        <text class="num">{{licenseNumberFirst}}·{{licenseNumberSecond}}</text>
       </view>
-      <text class="label">已认证</text>
-      <image class="trash" src='../../resource/images/trash.png'></image>
+      <text class="label" catchtap='goToApprove' data-postId="{{postId}}" style='color:{{isApprove?"#04be33":"#fe6133"}};border:1rpx solid {{isApprove?"#04be33":"#fe6133"}}'>{{isApprove?"已认证":"未认证"}}</text>
+      <image class="trash" src='../../resource/images/trash.png' catchtap='removeCar'></image>
       <!--未认证样式写入样式表-->
     </view>
     <view class="page-section">
       <view class="weui-cell_switch">
-        <view class="weui-cell__bd">免密支付</view>
+        <view class="weui-cell__bd"><text>自动支付</text><image src='../../resource/images/manageinfo.png'></image></view>
         <view class="weui-cell__ft">
-          <switch/>
+          <switch checked='{{isNoPasswordPay}}' bindchange="showNoPasswordPayModal" data-postid="{{postId}}"/>
         </view>
       </view>
       <view class="weui-cell_switch">
         <view class="weui-cell__bd">消息推送</view>
         <view class="weui-cell__ft">
-          <switch />
+          <switch checked='{{isSendMessage}}' bindchange="openSendMessage" data-postid="{{postId}}"/>
         </view>
       </view>
     </view>

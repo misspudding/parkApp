@@ -26,7 +26,7 @@
   border-bottom:1px solid #eaeaea;
   height:70rpx;
   line-height:70rpx;
-  font-size: 32rpx;
+  font-size: 28rpx;
   color:#666;
 }
 .invoice-list text:last-child{

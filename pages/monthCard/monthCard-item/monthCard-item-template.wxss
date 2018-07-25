@@ -1,5 +1,5 @@
 .card {
-  margin-top: 40rpx;
+  margin-bottom: 30rpx;
   width: 651rpx;
   height: 345rpx;
   border-radius: 8px;
@@ -7,6 +7,7 @@
   box-shadow: 0 2px 2px rgba(102, 102, 102, 0.5);
   margin-left: 50rpx;
 }
+
 
 .card .part {
   width: 100%;
@@ -93,11 +94,12 @@
 
 .card .part .time {
   display: block;
-  line-height: 50rpx;
+  line-height: 58rpx;
+  height:58rpx;
   color: #fff;
   font-size: 26rpx;
   opacity: 0.6;
-  margin-top: 28rpx;
+  margin-top: 35rpx;
 }
 
 .card .part .time text {

@@ -4,10 +4,12 @@
   background:#fff;
 }
 .car-renewal-tit{
-  font-size: 32rpx;
+  font-size: 28rpx;
   height:70rpx;
   line-height:70rpx;
   text-align:center;
+  color:#383838;
+
 }
 .car-renewal-tit text{
   color:#ff9a14;
@@ -107,11 +109,12 @@
 
 .card .part .time {
   display: block;
-  line-height: 50rpx;
+  line-height: 58rpx;
+  height:58rpx;
   color: #fff;
   font-size: 26rpx;
   opacity: 0.6;
-  margin-top: 28rpx;
+  margin-top: 35rpx;
 }
 
 .card .part .time text {
@@ -121,17 +124,17 @@
   display:block;
   height:80rpx;
   line-height:80rpx;
-  font-size: 32rpx;
+  font-size: 28rpx;
   padding:0 35rpx;
   color:#666;
 }
 .car-renewal-item .line{
-  height:100rpx;
-  line-height:100rpx;
+  height:90rpx;
+  line-height:90rpx;
   padding:0 35rpx;
   background:#fff;
   border-bottom:1rpx solid #eaeaea;
-  font-size: 32rpx;
+  font-size: 28rpx;
 }
 .car-renewal-item .line:nth-child(2){
   border-top:1rpx solid #eaeaea;
@@ -173,12 +176,12 @@
   position: absolute;
   bottom: 0px;
   width: 100%;
-  background: linear-gradient(to right, #6fbeff, #1f84fe);
+  background: linear-gradient(to left, #6fbeff, #1f84fe);
   border-radius: 0;
   color: #fff;
-  height: 100rpx;
-  line-height: 100rpx;
-  font-size: 36rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 32rpx;
   border:none;
   text-align:center;
 }

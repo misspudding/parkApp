@@ -3,20 +3,12 @@
     <view class="tit">充值金额:</view>
     <view class="con">
       <view class='recharge-cost-list' style="width:110%;">
-      <!-- <block wx:for="{{showPrices}}" wx:key="{{}}">
-        <view class="{{postId =='{{item.index}}'?'recharge-cost active':'recharge-cost'}}" data-postId="{{item.index}}" catchtap='pitchUp'>{{item.price}}元</view>
-      </block> -->
-         <view class="{{postId == 0?'recharge-cost active':'recharge-cost'}}" data-postId = "0" catchtap='pitchUp'>10元</view>
-        <view class="{{postId == 1?'recharge-cost active':'recharge-cost'}}" data-postId = "1" catchtap='pitchUp'>20元</view>
-        <view class="{{postId == 2?'recharge-cost active':'recharge-cost'}}" data-postId = "2" catchtap='pitchUp'>30元</view>
-        <view class="{{postId == 3?'recharge-cost active':'recharge-cost'}}" data-postId = "3" catchtap='pitchUp'>50元</view>
-        <view class="{{postId == 4?'recharge-cost active':'recharge-cost'}}" data-postId = "4" catchtap='pitchUp'>80元</view>
-        <view class="{{postId == 5?'recharge-cost active':'recharge-cost'}}" data-postId = "5" catchtap='pitchUp'>100元</view>
-        <view class="{{postId == 6?'recharge-cost active':'recharge-cost'}}" data-postId = "6" catchtap='pitchUp'>150元</view>
-        <view class="{{postId == 7?'recharge-cost active':'recharge-cost'}}" data-postId = "7" catchtap='pitchUp'>200元</view>   
+       <block wx:for="{{showPrices}}" wx:key="{{}}">
+        <view class="{{postId==item.index?'recharge-cost active':'recharge-cost'}}" data-postId="{{item.index}}" catchtap='pitchUp'>{{item.price}}元</view>
+      </block> 
       </view>
     </view>
-    <input placeholder='其他金额' type='number' maxlength='6'></input>
+    <input placeholder='其他金额' type='number' maxlength='6' bindinput='inputValue'></input>
     <view class="tips">
     <image src='../../resource/images/tips.png'></image>
     <text>每次最低充值10元</text>
@@ -33,5 +25,5 @@
       </label>
     </radio-group>
   </view>
-  <view class='recharge-button-view'>充值</view>
+  <view class='recharge-button-view' catchtap='recharge'>充值</view>
 </view>

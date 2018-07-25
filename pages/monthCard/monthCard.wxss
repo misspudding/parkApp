@@ -3,14 +3,15 @@
 
 .month-card-con {
   width: 651rpx;
-  margin: 47rpx auto;
+  margin: 47rpx auto 30rpx auto;
   height: 34rpx;
 }
 
 .month-card-con text {
   float: right;
-  font-size: 32rpx;
+  font-size: 28rpx;
   line-height: 34rpx;
+  color:#383838;
 }
 
 .month-card-con image {

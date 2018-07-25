@@ -1,5 +1,9 @@
 <import src="carManage-item/carManage-item-template" />
-<block wx:for="{{5}}" wx:key="{{}}">
-  <template is="carManage-item"></template>
+<block wx:for="{{cardList}}" wx:key="{{}}">
+  <template is="carManage-item" data="{{...item}}"></template>
 </block>
 <view class="bg"></view>
+
+ <modal hidden="{{hiddenmodalput}}" data-postId="{{postId}}" title="输入支付密码" confirm-text="提交" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">
+    <input type='password' placeholder="请输入支付密码" confirm-type='done' bindinput='bindKeyInput'/>
+</modal> 
