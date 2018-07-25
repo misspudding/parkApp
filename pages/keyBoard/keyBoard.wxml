@@ -1,0 +1,103 @@
+<view id="keyboardBox">
+  <view class="provienceBox" id="provienceBox" style='display:none;'>
+    <view class="ul">
+      <view class="li">京</view>
+      <view class="li">津</view>
+      <view class="li">渝</view>
+      <view class="li">沪</view>
+      <view class="li">冀</view>
+      <view class="li">晋</view>
+      <view class="li">辽</view>
+      <view class="li">吉</view>
+      <view class="li">黑</view>
+      <view class="li">苏</view>
+    </view>
+    <view class="ul">
+      <view class="li">浙</view>
+      <view class="li">皖</view>
+      <view class="li">闽</view>
+      <view class="li">赣</view>
+      <view class="li">鲁</view>
+      <view class="li">豫</view>
+      <view class="li">鄂</view>
+      <view class="li">湘</view>
+      <view class="li">粤</view>
+      <view class="li">琼</view>
+    </view>
+    <view class="ul">
+      <view class="li">川</view>
+      <view class="li">贵</view>
+      <view class="li">云</view>
+      <view class="li">陕</view>
+      <view class="li">甘</view>
+      <view class="li">青</view>
+      <view class="li">蒙</view>
+      <view class="li">桂</view>
+      <view class="li">宁</view>
+      <view class="li">新</view>
+    </view>
+    <view class="ul">
+      <view class="li changeContentBtn other">ABC</view>
+      <view class="li">藏</view>
+      <view class="li">使</view>
+      <view class="li">领</view>
+      <view class="li">警</view>
+      <view class="li">学</view>
+      <view class="li">港</view>
+      <view class="li">澳</view>
+      <view class="li deleteBtn other">
+        <image src="../../resource/images/backDeleteImg.jpg"></image>
+      </view>
+    </view>
+  </view>
+  <view class="textBox" id="textBox">
+    <view class="ul">
+      <view class="li">1</view>
+      <view class="li">2</view>
+      <view class="li">3</view>
+      <view class="li">4</view>
+      <view class="li">5</view>
+      <view class="li">6</view>
+      <view class="li">7</view>
+      <view class="li">8</view>
+      <view class="li">9</view>
+      <view class="li">0</view>
+    </view>
+    <view class="ul">
+      <view class="li">Q</view>
+      <view class="li">W</view>
+      <view class="li">E</view>
+      <view class="li">R</view>
+      <view class="li">T</view>
+      <view class="li">Y</view>
+      <view class="li">U</view>
+      <view class="li">I</view>
+      <view class="li">O</view>
+      <view class="li">P</view>
+    </view>
+    <view class="ul">
+      <view class="li">A</view>
+      <view class="li">S</view>
+      <view class="li">D</view>
+      <view class="li">F</view>
+      <view class="li">G</view>
+      <view class="li">H</view>
+      <view class="li">J</view>
+      <view class="li">K</view>
+      <view class="li">L</view>
+    </view>
+    <view class="ul">
+      <view class="li" class="li changeContentBtn other">返回</view>
+      <view class="li">Z</view>
+      <view class="li">X</view>
+      <view class="li">C</view>
+      <view class="li">V</view>
+      <view class="li">B</view>
+      <view class="li">N</view>
+      <view class="li">M</view>
+      <view class="li deleteBtn other">
+        <image src="../../resource/images/backDeleteImg.jpg"></image>
+      </view>
+    </view>
+  </view>
+</view>

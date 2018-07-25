@@ -1,0 +1,108 @@
+
+.con{
+  overflow:hidden;
+}
+.recharge-cost-list {
+  overflow:hidden;
+  padding-left:35rpx;
+}
+
+.recharge-button-view {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: linear-gradient(to left, #6fbeff, #1f84fe);
+  border-radius: 0;
+  color: #fff;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 32rpx;
+  border: none;
+  text-align: center;
+}
+.recharge-cost.active{
+  background:#2084fe;
+  color:#fff;
+  border: 1rpx solid #2084fe;
+
+}
+.recharge-cost {
+  width: 140rpx;
+  height: 80rpx;
+  line-height:80rpx;
+  float: left;
+  margin-right: 40rpx;
+  margin-bottom:26rpx;
+  border: 1rpx solid #eaeaea;
+  text-align:center;
+  border-radius:8rpx;
+  box-sizing: border-box;
+  font-size:28rpx;
+  color:#383838;
+}
+.text{
+  width:750rpx;
+
+}
+
+.tit {
+  font-size: 32rpx;
+  padding-left:35rpx;
+  height:80rpx;
+  line-height:80rpx;
+  margin-top:40rpx;
+  color:#383838;
+}
+.recharge-container input{
+  display:block;
+  clear:both;
+  margin:10rpx 35rpx 20rpx 35rpx;
+  height:80rpx;
+  line-height:80rpx;
+  border-bottom:1rpx solid #eaeaea;
+  font-size: 28rpx;
+}
+
+.radio{
+  height:90rpx;
+  line-height:90rpx;
+}
+.weui-cell__bd image{
+  width:52rpx;
+  height:52rpx;
+  float:left;
+  margin:19rpx 15rpx 0 35rpx;
+}
+.pay-radio{
+  float:right;
+  margin-right:35rpx;
+}
+.weui-cell__bd{
+  border-bottom:1rpx solid #eaeaea;
+  border-top:1rpx solid #eaeaea;
+  margin-top:1rpx;
+  font-size: 28rpx;
+  color:#383838;
+}
+.tips{
+  font-size: 12px;
+  text-align:center;
+  height:20px;
+  line-height:20px;
+}
+
+.tips image{
+  width:28rpx;
+  height:28rpx;
+  padding-right:10rpx;
+  float:left;
+  margin-top:3px;
+  padding-left:35rpx;
+
+}
+.tips text{
+  line-height: 40rpx;
+  float:left;
+  color:#9fa5b0;
+  font-size: 26rpx;
+  }
